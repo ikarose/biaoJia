@@ -1,0 +1,24 @@
+@charset "utf-8";
+html,body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,th,td,p,form,fieldset,legend,input,button,textarea{margin:0;padding:0;}
+
+ul li{list-style: none;}
+
+a{text-decoration: none;}
+
+a:hover{color: #E4393C;text-decoration: underline;}
+
+img,fieldset{border: none;}
+
+input{outline: none;}
+
+body{
+	background: #f6f6f6;
+}
+
+body, div, a, i, h1, h2, h3, h4, p, span, ul, li {
+    font-family: "微软雅黑";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    color: #555;
+}

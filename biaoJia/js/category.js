@@ -1,0 +1,10 @@
+$(".category>ul>li").hover(
+	function(){
+		$(this).addClass("active").siblings().removeClass("active");
+		$(this).children().eq(2).css("display","block");
+	},
+	function(){
+		$(this).removeClass("active");
+		$(this).children().eq(2).css("display","none");
+	}
+)
