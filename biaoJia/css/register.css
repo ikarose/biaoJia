@@ -1,0 +1,132 @@
+@charset "utf-8";
+body{
+	background: #f2f2f2;
+}
+.content span,p{
+	font-family: Arial,"宋体",Lucida,Verdana,Helvetica,sans-serif!important;
+    font-size: 12px;
+    color: #333;
+}
+
+.content{
+	width: auto;
+	height: auto;
+}
+.content .register{
+	margin:0 auto;
+	width: 980px;
+	height: auto;
+	margin-top: 10px;
+}
+.content .register_head{
+	width: 980px;
+	height: 33px;
+}
+.content .register_head .head_left{
+	float: left;
+	width: 470px;
+	height: 33px;
+	box-shadow: 2px 0 0 #DDDDDD;
+	background: #fff;
+	border: 1px solid #ddd;
+	border-bottom: none;
+}
+.content .register_head .head_left>p{
+	width: 470px;
+	height: 32px;
+	line-height: 32px;
+	font-weight: bold;
+	color: #e4393c;
+	font-size: 14px;
+	text-align: center;
+}
+.content .register_head .head_right{
+	width: 508px;
+	height: 33px;
+	float: right;
+	border-bottom: solid 1px #ddd;
+	position: relative;
+}
+.content .register_head .head_right>span{
+	display: block;
+	height: 32px;
+	line-height: 32px;
+	position: absolute;
+	top: 5px;
+	right: 20px;
+}
+.register_head .head_right>span>a{
+	color: #005AA0;
+}
+.content .register_body{
+	width: 980px;
+	height: 465px;
+	background: #fff;
+	padding: 30px 0 20px;
+    border: solid #dddddd;
+    border-width: 0px 1px 1px;
+}
+#register_form .form{
+	width: 980px;
+	height: 465px;
+}
+#register_form .form .item{
+	padding-top: 9px;
+    height: 60px;
+    line-height: 34px;
+    position: relative;
+}
+.item-new{
+	padding-top: 0;
+    height: 49px;
+}
+.item .label{
+	width: 190px;
+	height: 34px;
+	line-height: 34px;
+    text-align: right;
+    font-size: 14px;
+    color: #999;
+    padding-right: 10px;
+    float: left;
+}
+.error{
+	color:  #F30;
+}
+.label .ftx04{
+	margin-right: 5px;
+    font-weight: normal;
+    color: #F00;
+}
+.item-info{
+	position: relative;
+    width: 500px;
+}
+.serror{
+	width: 600px;
+}
+.text{
+	width: 238px;
+    height: 16px;
+    padding: 10px 25px 10px 5px;
+    border: 1px solid #cccccc;
+    float: left;
+    font-size: 14px;
+    font-family: arial,"宋体";
+    color: #999;
+    overflow: hidden;
+    margin-right: 10px;
+}
+label{
+	float: left;
+	font-size: 12px;
+}
+#submit{
+	background: url(../img/regist-btn.jpg) no-repeat;
+    border: none;
+    width: 270px;
+    height: 36px;
+    cursor: pointer;
+}
+
+

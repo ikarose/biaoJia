@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/head.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/foot.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/login.css"/>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<div class="header_inner">
+					<div class="favorite">
+						<a href="#" class="favorite_a">
+							<img class="spin" src="../img/star.png" /> 收藏本站
+						</a>
+					</div>
+					<div class="user_entry">
+						您好，欢迎来到
+						<a href="http://localhost/biajia/index.html" class="now">表加网</a>
+						<a href="http://localhost/biajia/html/login.html" class="user_login">登录</a>
+						<a href="http://localhost/biajia/html/register.html" class="user_register">注册</a>
+					</div>
+					<div class="quick_menu">
+						<ul>
+							<li class="user_order">
+								<a href="#">我的订单</a><i></i>
+								<ul>
+									<li>
+										<a href="#">待付款订单</a>
+									</li>
+									<li>
+										<a href="#">待确认收货</a>
+									</li>
+									<li>
+										<a href="#">待评价交易</a>
+									</li>
+								</ul>
+							</li>
+							<li class="user_favorite">
+								<a href="#">我的收藏</a><i></i>
+								<ul>
+									<li>
+										<a href="#">商品收藏</a>
+									</li>
+									<li>
+										<a href="#">店铺收藏</a>
+									</li>
+								</ul>
+							</li>
+							<li class="user_center">
+								<a href="#">卖家中心</a><i></i>
+								<ul>
+									<li>
+										<a href="#">我的订单</a>
+									</li>
+									<li>
+										<a href="#">商家入驻</a>
+									</li>
+								</ul>
+							</li>
+							<li class="user_service">
+								<a href="#">客户服务</a><i></i>
+								<ul>
+									<li>
+										<a href="#">帮助中心</a>
+									</li>
+									<li>
+										<a href="#">售后服务</a>
+									</li>
+									<li>
+										<a href="#">客服中心</a>
+									</li>
+								</ul>
+							</li>
+							<li class="mobi_shop">
+								<a href="#">手机商城</a><i></i>
+								<ul style="width:100px;height:100px"><img src="../img/05137898492983214.png" style="width: 100%;height: 100%" /></ul>
+							</li>
+							<li class="vip_center">
+								<a href="#">会员中心</a><i></i>
+								<ul></ul>
+							</li>
+							<li class="cart">
+								<a href="#">购物车</a><i></i>
+								<ul></ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</header>
+				
+			<div class="wrapper_nav">
+				<div class="nav">
+					<h1 class="logo">
+						<span>表加网</span>
+					</h1>
+	
+					<ul class="nav_menu">
+						<li>
+							<a href="http://localhost/biajia/index.html">首页</a>
+						</li>
+						<li>
+							<a href="#">抢购</a>
+						</li>
+						<li>
+							<a href="#">品牌</a>
+						</li>
+						<li>
+							<a href="#">书城</a>
+						</li>
+						<li>
+							<a href="#">积分兑换</a>
+						</li>
+					</ul>
+	
+					<div class="search_wrapper">
+						<div class="search_inner">
+							<div class="cate">
+								<div id="cate_inner">
+									<p>宝贝</p>
+									<ul class="cate_ul">
+										<li>
+											<a href="#">宝贝</a>
+										</li>
+										<li>
+											<a href="#">店铺</a>
+										</li>
+										<li>
+											<a href="#">品牌</a>
+										</li>
+									</ul>
+								</div>
+								<a href="#" class="cate_slide"></a>
+							</div>
+							<input type="text" id="keyword" placeholder="请输入您要搜索的商品关键字" />
+							<input type="submit" value="搜索" id="btn" />
+						</div>
+	
+					</div>
+	
+				</div>
+			</div>
+	
+			<div class="content">
+				<div class="login_wrap">
+					<div class="login-form">
+						<div class="login_box">
+							<div class="login_head">
+								<h1>用户登录</h1>
+								<div class="extra">
+									<div class="regist_link">
+										<a href="#"><b></b>立即注册</a>
+									</div>
+								</div>
+							</div>
+							<div class="msg_wrap"></div>
+							
+							<div class="form">
+								<form action="" method="post" id="login_form">
+									<div class="item">
+										<label for="user_name" class="login_label name_label"></label>
+										<input type="text" class="itxt" autocomplete="off" name="user_name" id="user_name" autofocus placeholder="邮箱/用户名/已验证手机"/>
+										<span class="clear-btn"></span>
+									</div>
+									<div class="item" id="entry">
+										<label for="login_pwd" class="login_label pwd_label"></label>
+										<input type="password" class="itxt" autocomplete="off" name="login_pwd" id="login_pwd" placeholder="密码"/>
+									</div>
+									<div class="item item-vcode" id="authcode">
+										<input name="captcha" type="text" required id="captcha" placeholder="验证码" pattern="[A-z0-9]{4}" title autocomplete="off" value class="fl itxt itxt02" maxlength="4" size="10"/>
+										<img src=" " border="0" id="codeimage" width="100" height="33" class="fl"/>
+				                        <a href="javascript:void(0)" id="change_code" class="fl">看不清，换一张</a>
+									</div>
+									<div class="item-fore1">
+										<div class="login-btn">
+											<input type="submit" value="登&nbsp;&nbsp;&nbsp;&nbsp;录" class="btn-img btn-entry" id="loginsubmit">
+										</div>
+										<a href="#" style="display:block;margin:1px 0;">忘记密码？</a>
+										<dl class="login_new">
+											<dd class="nc-login-other">
+												<p>您可以用合作伙伴账号登录：</p>
+												<a href="#" title="QQ"><img src="../img/Connect_logo_3.png"/></a>
+												<a href="#" title="新浪微博" style="margin-left: 20px;"><img src="../img/sina.jpg"/></a>
+											</dd>
+										</dl>
+									</div>
+									
+									
+								</form>
+														
+								
+							</div>
+							
+							
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="footer">
+						<p>
+							<a href="#">首页</a>
+							|
+							<a href="#">招聘英才</a>
+							|
+							<a href="#">联系我们</a>
+							|
+							<a href="#">合作及洽谈</a>
+							|
+							<a target="_blank" href="#">关于表加网</a>
+						</p>
+						Copyright 2014-2017 深圳市意外空间网络有限公司,All rights reserved.
+						<a href="#" target="_blank">
+							<a href='#' target='_blank'>粤ICP备16044028号-1</a>
+						</a>
+			</div>
+		
+		
+		</div>
+		
+		
+		
+		
+		
+		
+			
+			
+			
+			
+			
+		<script src="../js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/header.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/login.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

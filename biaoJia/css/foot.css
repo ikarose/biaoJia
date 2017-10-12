@@ -1,0 +1,21 @@
+#footer{
+	width: 1200px;
+	font-size: 12px;
+    background-color: #f5f5f5;
+    color: #0F0F0F;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+#footer>p{
+	color: #0F0F0F;
+    word-spacing: 5px;
+    padding: 10px 0;
+}
+#footer>a{
+	color: #0F0F0F;
+}
+#footer>p>a{
+	color: #0F0F0F;
+}

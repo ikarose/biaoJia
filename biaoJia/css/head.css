@@ -1,0 +1,220 @@
+@charset "utf-8";
+
+
+
+.wrapper{
+	width: auto;
+	height: auto;
+}
+.wrapper header{
+	height: 30px;
+	width: auto;
+	background: #333;
+}
+.wrapper header .header_inner{
+	width: 1200px;
+	height: 30px;
+	margin:0 auto;
+}
+.wrapper header .header_inner>div{
+	float:left;
+}
+.wrapper header .header_inner .favorite{
+	line-height: 30px;
+	height: 30px;
+	width: 80px;
+}
+.wrapper header .header_inner .favorite .favorite_a .spin{
+	transition: all 0.4s ease;
+	vertical-align: middle;
+}
+.wrapper header .header_inner .favorite .favorite_a:hover .spin{
+	transform: rotate(360deg);
+	transform-origin: center;
+}
+.wrapper header .header_inner .favorite .favorite_a{
+	color: white;	
+}
+.wrapper header .header_inner .favorite .favorite_a:hover{
+	text-decoration: underline;
+}
+
+.wrapper header .header_inner .user_entry{
+	height: 30px;
+	line-height: 30px;
+	color: white;
+}
+.wrapper header .header_inner .user_entry a{
+	color: #f00;
+}
+.wrapper header .header_inner .user_entry a:hover{
+	text-decoration: underline;
+}
+.wrapper header .header_inner .user_entry .now{
+	color: white;
+}
+
+.wrapper header .header_inner .quick_menu{
+	float: right;
+	height: 30px;
+	line-height: 30px;
+}
+.wrapper header .header_inner .quick_menu>ul{
+		
+}
+.wrapper header .header_inner .quick_menu>ul>li{
+	float: left;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	position: relative;
+}
+.wrapper header .header_inner .quick_menu>ul>li>i{
+	display: inline-block;
+	background: url(../img/top_bg.png) no-repeat 0 0;
+	vertical-align: middle;
+	width: 6px;
+	height: 3px;
+	margin-left: 6px;
+	transition: all 0.2s ease-in;
+}
+.wrapper header .header_inner .quick_menu>ul>li>a{
+	color: white;
+}
+.wrapper header .header_inner .quick_menu>ul>li>ul{
+	display: none;
+	width: 80px;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	background: #333;
+	z-index: 10000;
+}
+.wrapper header .header_inner .quick_menu>ul>li>ul>li{
+	line-height: 30px;
+	height: 30px;
+	width: 80px;
+}
+.wrapper header .header_inner .quick_menu>ul>li>ul>li:hover{
+	background: #ccc;
+}
+.wrapper header .header_inner .quick_menu>ul>li>ul>li:hover a{
+	color: #f00;
+}
+.wrapper header .header_inner .quick_menu>ul>li>ul>li>a{
+	color: white;
+}
+
+.wrapper .wrapper_nav{
+	width: auto;
+	height: 100px;
+	background: white;
+	margin:0 auto;
+}
+.wrapper .nav{
+	width: 1200px;
+	height: 100px;
+	margin:0 auto;
+}
+.wrapper .nav .logo{
+	margin-top: 15px;
+	margin-left: 0;
+	width: 170px;
+	height: 69px;
+	cursor: pointer;
+	background: url(../img/05191349003636269.png) no-repeat center left;
+	float: left;
+}
+.wrapper .nav .logo>span{
+	display: none;
+}
+.wrapper .nav .nav_menu{
+	height: 100px;	
+	float: left;
+}
+.wrapper .nav .nav_menu>li{
+	line-height: 100px;
+	height: 100px;
+	float: left;
+}
+.wrapper .nav .nav_menu>li>a{
+	font-size: 14px;
+	padding:10px 20px;
+}
+.wrapper .nav .nav_menu>li>a:hover{
+	color: #f00;
+	text-decoration: underline;
+}
+.wrapper .nav .search_wrapper{
+	width: 460px;
+	height: 40px;
+	border:2px solid #333;
+	float: right;
+	margin-top: 20px;
+}
+.wrapper .nav .search_wrapper .search_inner .cate{
+	width: 80px;
+	height: 40px;
+	float: left;
+}
+.wrapper .nav .search_wrapper .search_inner .cate #cate_inner{
+	width: 50px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	float: left;
+	position: relative;
+	cursor: pointer;
+}
+.wrapper .nav .search_wrapper .search_inner .cate #cate_inner .cate_ul{
+	display: none;
+	width: 60px;
+	background: #333;
+	position: absolute;
+	top: 42px;
+	left: -2px;
+	z-index: 999;
+}
+.wrapper .nav .search_wrapper .search_inner .cate #cate_inner .cate_ul>li{
+	width: 60px;
+	height: 40px;
+	line-height: 40px;
+}
+.wrapper .nav .search_wrapper .search_inner .cate #cate_inner .cate_ul>li>a{
+	display: inline-block;
+	width: 60px;
+	height: 40px;
+	line-height: 40px;
+	color: white;
+}
+.wrapper .nav .search_wrapper .search_inner .cate #cate_inner .cate_ul>li>a:hover{
+	color: #f00;
+}
+
+.wrapper .nav .search_wrapper .search_inner .cate .cate_slide{
+	width: 26px;
+	height: 40px;
+	background: url(../img/search_bg.png) no-repeat center right;
+	float: left;
+}
+.wrapper .nav .search_wrapper .search_inner #keyword{
+	border: none;
+	height: 24px;
+	width: 60%;
+	color: #555;
+	font-size: 12px;
+	line-height: 24px;
+	float: left;
+	padding:8px 0;
+}
+.wrapper .nav .search_wrapper .search_inner #btn{
+	border: none;
+	width: 80px;
+	height: 40px;
+	float: right;
+	color: white;
+	background: #333;
+	font-weight: 600;
+	cursor: pointer;
+}

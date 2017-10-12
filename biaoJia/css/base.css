@@ -3,7 +3,7 @@ html,body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,th,td,p,form,fieldset,legend,input
 
 ul li{list-style: none;}
 
-a{text-decoration: none;}
+a{text-decoration: none;color: #666;}
 
 a:hover{color: #E4393C;text-decoration: underline;}
 
@@ -21,4 +21,36 @@ body, div, a, i, h1, h2, h3, h4, p, span, ul, li {
     font-style: normal;
     font-weight: normal;
     color: #555;
+}
+
+body .fl{
+	float: left!important;
+}
+
+.w50{
+	width: 50px!important;
+}
+
+.vm{
+	vertical-align: middle;
+}
+
+.ml5{
+	margin-left: 5px;
+}
+
+.ml10{
+	margin-left: 10px;
+}
+
+#dark{
+	background: #ebebeb;
+}
+.hover{
+	border-color:rgba(50,155,241,1) transparent rgba(50,155,241,1) rgba(50,155,241,1)!important;
+	z-index: 999999999!important;
+	background: white!important;
+}
+.active{
+	background: #E4393C!important;
 }

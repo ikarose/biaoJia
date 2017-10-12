@@ -1,0 +1,170 @@
+@charset "utf-8";
+body{
+	background: #fff!important;
+}
+.wrapper .content{
+	width: 100%;
+	height: auto;
+	background: #e93854;;
+}
+.content .login_wrap{
+	margin:0 auto;
+	width: 990px;
+	height: 475px;
+	position: relative;
+}
+.login_wrap .login-form{
+	float: right;
+    top: 30px;
+    position: relative;
+    z-index: 4;
+    width: 306px;
+    background: #fff;
+    padding: 20px;
+}
+.login-form .login_box{
+	width: auto;
+	height: auto;
+}
+.login_box .login_head{
+	width: 306px;
+	height: 27px;
+}
+.login_head>h1{
+	position: relative;
+    height: 27px;
+    line-height: 27px;
+    top: -5px;
+    float: left;
+    color: #666;
+    font-family: '\5fae\8f6f\96c5\9ed1';
+    font-size: 20px;
+}
+.login_head .extra{
+	float: right;	
+}
+.regist_link>a{
+	font-size: 14px;
+	color: #b61d1d;
+}
+.regist_link>a>b{
+	display: inline-block;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.login-form .msg_wrap{
+	min-height: 31px;
+    height: auto!important;
+    margin: 2px 0 5px;
+}
+
+.login-form .form{
+	width: 306px;
+	height: auto;
+}
+#login_form{
+	width: 306px;
+}
+#login_form .item{
+	position: relative;
+    margin-bottom: 20px;
+    border: 1px solid #bdbdbd;
+    height: 38px;
+    width: 304px;
+}
+.item .login_label{
+	position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 38px;
+    height: 38px;
+    border-right: 1px solid #bdbdbd;
+   background: url(../img/pwd-icons-new.png) no-repeat;
+}
+.item .name_label{
+	background-position:0 0;	
+}
+.item .itxt{
+	line-height: 18px;
+    height: 18px;
+    border: 0;
+    padding: 10px 0 10px 50px;
+    width: 254px;
+    float: none;
+    overflow: hidden;
+    font-size: 14px;
+    font-family: '\5b8b\4f53';
+}
+.clear-btn{
+	position: absolute;
+    z-index: 20;
+    right: 6px;
+    top: 12px;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    display: none;
+}
+.pwd_label{
+	background-position: -48px 0!important;
+}
+.item-vcode{
+	height: 34px!important;
+	border: 0!important;
+}
+.item .itxt02{
+	border: 1px solid #bdbdbd;
+    font-size: 14px;
+    padding: 7px 5px;
+    vertical-align: middle;
+    width: 78px;
+    text-align: center;
+    float: none;
+}
+#codeimage{
+	margin:0 2px;
+}
+#change_code{
+	vertical-align: middle;
+	color: #666;
+	padding-top: 7px;
+}
+.item-fore1{
+	position: relative;
+    margin-bottom: 20px;
+    z-index: 1;
+    width: 306px;
+    height: auto;
+}
+.item-fore1 .login-btn{
+	margin: 0 auto;
+    height: 33px;
+    position: relative;
+    border: none;
+}
+.login-btn .btn-img{
+	border: 1px solid #e85356;
+    display: block;
+    width: 302px;
+    background: #e4393c;
+    height: 31px;
+    line-height: 31px;
+    color: #fff;
+    font-size: 20px;
+    font-family: '\5fae\8f6f\96c5\9ed1';
+    text-align: center;
+    cursor: pointer;
+}
+.item .login_new{
+	width: 306px;
+	height: auto;
+}
+.item .login_new .nc-login-other{
+	
+}
+

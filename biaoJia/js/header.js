@@ -33,4 +33,9 @@ oCate.on("mouseover","a",function(){
 	cInner.children().eq(0).text(a?a:cInner.children().eq(0).text());
 })
 
+//点击logo回到首页
+$(".logo").click(function(){
+	console.log(222);
+	window.location.href = "http://localhost/biajia/index.html";
+});
 

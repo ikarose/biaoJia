@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/head.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/foot.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/register.css"/>
+		<link rel="stylesheet" type="text/css" href="../tip-yellowsimple/tip-yellowsimple.css"/>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+					<div class="header_inner">
+						<div class="favorite">
+							<a href="#" class="favorite_a">
+								<img class="spin" src="../img/star.png" /> 收藏本站
+							</a>
+						</div>
+						<div class="user_entry">
+						您好，欢迎来到
+						<a href="http://localhost/biajia/index.html" class="now">表加网</a>
+						<a href="http://localhost/biajia/html/login.html" class="user_login">登录</a>
+						<a href="http://localhost/biajia/html/register.html" class="user_register">注册</a>
+					</div>
+						<div class="quick_menu">
+							<ul>
+								<li class="user_order">
+									<a href="#">我的订单</a><i></i>
+									<ul>
+										<li>
+											<a href="#">待付款订单</a>
+										</li>
+										<li>
+											<a href="#">待确认收货</a>
+										</li>
+										<li>
+											<a href="#">待评价交易</a>
+										</li>
+									</ul>
+								</li>
+								<li class="user_favorite">
+									<a href="#">我的收藏</a><i></i>
+									<ul>
+										<li>
+											<a href="#">商品收藏</a>
+										</li>
+										<li>
+											<a href="#">店铺收藏</a>
+										</li>
+									</ul>
+								</li>
+								<li class="user_center">
+									<a href="#">卖家中心</a><i></i>
+									<ul>
+										<li>
+											<a href="#">我的订单</a>
+										</li>
+										<li>
+											<a href="#">商家入驻</a>
+										</li>
+									</ul>
+								</li>
+								<li class="user_service">
+									<a href="#">客户服务</a><i></i>
+									<ul>
+										<li>
+											<a href="#">帮助中心</a>
+										</li>
+										<li>
+											<a href="#">售后服务</a>
+										</li>
+										<li>
+											<a href="#">客服中心</a>
+										</li>
+									</ul>
+								</li>
+								<li class="mobi_shop">
+									<a href="#">手机商城</a><i></i>
+									<ul style="width:100px;height:100px"><img src="../img/05137898492983214.png" style="width: 100%;height: 100%" /></ul>
+								</li>
+								<li class="vip_center">
+									<a href="#">会员中心</a><i></i>
+									<ul></ul>
+								</li>
+								<li class="cart">
+									<a href="#">购物车</a><i></i>
+									<ul></ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</header>
+					
+			<div class="wrapper_nav">
+				<div class="nav">
+					<h1 class="logo">
+						<span>表加网</span>
+					</h1>
+
+					<ul class="nav_menu">
+						<li>
+							<a href="http://localhost/biajia/index.html">首页</a>
+						</li>
+						<li>
+							<a href="#">抢购</a>
+						</li>
+						<li>
+							<a href="#">品牌</a>
+						</li>
+						<li>
+							<a href="#">书城</a>
+						</li>
+						<li>
+							<a href="#">积分兑换</a>
+						</li>
+					</ul>
+
+					<div class="search_wrapper">
+						<div class="search_inner">
+							<div class="cate">
+								<div id="cate_inner">
+									<p>宝贝</p>
+									<ul class="cate_ul">
+										<li>
+											<a href="#">宝贝</a>
+										</li>
+										<li>
+											<a href="#">店铺</a>
+										</li>
+										<li>
+											<a href="#">品牌</a>
+										</li>
+									</ul>
+								</div>
+								<a href="#" class="cate_slide"></a>
+							</div>
+							<input type="text" id="keyword" placeholder="请输入您要搜索的商品关键字" />
+							<input type="submit" value="搜索" id="btn" />
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="content">
+				<div class="register">
+					<div class="register_head">
+						<div class="head_left">
+							<p>用户注册</p>							
+						</div>
+						<div class="head_right">
+							<span>我已注册，现在就&nbsp;<a href="http://localhost/biajia/html/login.html" class="user_login">登录</a></span>
+						</div>
+					</div>
+					<div style="clear:both;"></div>
+					<div class="register_body">
+						<form id="register_form" action="" method="post" >
+							<div class="form">
+					           	<div class="item" id="select-regName">
+				                    <span class="label"><b class="ftx04">*</b>用户名：</span>
+				                    <div class="fl item-ifo">
+				                        <div class="o-intelligent-regName serror">
+				                            <input type="text" id="user_name" name="user_name" class="text tip" title="3-15位字符，可由中文、英文、数字及“_”、“-”组成" autofocus />
+				                            <label></label>
+				                        </div>
+				                    </div>
+				               	</div>
+				               	<div class="item" id="password">
+				                    <span class="label"><b class="ftx04">*</b>请设置密码：</span>
+				                    <div class="fl item-ifo">
+				                        <div class="o-intelligent-regName serror">
+				                            <input type="password" id="password" name="password" class="text tip" title="6-20位字符，可由英文、数字及标点符号组成" autofocus />
+				                            <label></label>
+				                        </div>
+				                    </div>
+				               	</div>
+				               	<div class="item">
+				                    <span class="label"><b class="ftx04">*</b>请确认密码：</span>
+				                    <div class="fl item-ifo">
+				                        <div class="o-intelligent-regName serror">
+				                            <input type="password" id="password_confirm" name="password_confirm" class="text tip" title="请再次输入您的密码" autofocus />
+				                            <label></label>
+				                        </div>
+				                    </div>
+				               	</div>
+				               	<div class="item" id="mail">
+				                    <span class="label"><b class="ftx04">*</b>邮箱：</span>
+				                    <div class="fl item-ifo">
+				                        <div class="o-intelligent-regName serror">
+				                            <input type="text" id="email" name="email" class="text tip" title="请输入常用的邮箱，将用来找回密码、接受订单通知等" autofocus />
+				                            <label></label>
+				                        </div>
+				                    </div>
+				               	</div>
+				               	<div class="item" id="verifyCode" style="height: 62px;">
+				                    <span class="label"><b class="ftx04">*</b>验证码：</span>
+				                    <div class="fl item-ifo" style="width: 350px;">
+				                        <div class="o-intelligent-regName serror">
+				                            <input type="text" id="captcha" name="captcha" class="text tip w50" maxlength="4" size="10" title="请输入验证码，不区分大小写" autofocus />
+				                            <img src=" " border="0" id="codeimage" class="fl" width="100" height="38" style="margin-left: 5px;margin-right: 2px;"/>
+				                            <a href="javascript:void(0)" id="change_code" style="margin-left: 5px;">看不清，换一张</a>
+				                            <label></label> 
+				                        </div>
+				                    </div>
+				               	</div>
+				               	
+				               	<div class="item item-new">
+				               		<span class="label">&nbsp;</span>
+				                    <div class="fl item-ifo">
+				                        <div class="o-intelligent-regName serror">
+				                            <input type="checkbox" id="agree" name="agree" class="vm ml10 fl" checked="checked" style="margin-top: 10px;"/>
+				                            <span for="agree" class="ml5">
+				                            	阅读并同意
+				                            	<a href="" style="color:#75CCEF;" title="阅读并同意">《服务协议》</a>
+				                            </span>
+				                            <label></label>
+				                        </div>
+				                    </div>
+				               	</div>
+				              	<div class="item">
+				              		<span class="label">&nbsp;</span>
+				              		<input id="submit" type="submit" value=" " />
+				              	</div>
+				               	
+							</div>
+							
+						</form>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			<div id="footer">
+					<p>
+						<a href="#">首页</a>
+						|
+						<a href="#">招聘英才</a>
+						|
+						<a href="#">联系我们</a>
+						|
+						<a href="#">合作及洽谈</a>
+						|
+						<a target="_blank" href="#">关于表加网</a>
+					</p>
+					Copyright 2014-2017 深圳市意外空间网络有限公司,All rights reserved.
+					<a href="#" target="_blank">
+						<a href='#' target='_blank'>粤ICP备16044028号-1</a>
+					</a>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<script src="../js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery.poshytip.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery.validate.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/header.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/register.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

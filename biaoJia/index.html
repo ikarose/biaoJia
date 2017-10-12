@@ -1,209 +1,563 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="utf-8" />
-		<title></title>
-		<link rel="stylesheet" type="text/css" href="css/index.css"/>
-		<link rel="stylesheet" type="text/css" href="css/base.css"/>
-		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
-		<link rel="stylesheet" type="text/css" href="icon_font/iconfont.css"/>
+		<title>表加网</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="icon_font/iconfont.css" />
 	</head>
+
 	<body>
 		<div class="wrapper">
+			
+			<div class="toolbar">
+				<div class="please_login">
+					<a href="#">
+						<div class="avatar">
+							<img src="img/default_user_portrait.gif"/>
+						</div>
+						<p>请登录</p>
+					</a>
+				</div>
+				<ul class="tools">
+					<li>
+						<a href="#" class="side_cart">
+							<img src="img/gwc555.png"/>
+							<div>购物车</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="customer_service">
+							<img src="img/kefu555.png"/>
+							<div>客服</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="back_top">
+							<img src="img/toubu555.png"/>
+							<div>顶部</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+			
+			
 			<header>
 				<div class="header_inner">
 					<div class="favorite">
 						<a href="#" class="favorite_a">
-							<img class="spin" src="img/star.png"/>
-							收藏本站</a>
+							<img class="spin" src="img/star.png" /> 收藏本站
+						</a>
 					</div>
 					<div class="user_entry">
 						您好，欢迎来到
-						<a href="#" class="now">表加网</a>
-						<a href="#" class="user_login">登录</a>
-						<a href="#" class="user_register">注册</a>
+						<a href="http://localhost/biajia/index.html" class="now">表加网</a>
+						<a href="http://localhost/biajia/html/login.html" class="user_login">登录</a>
+						<a href="http://localhost/biajia/html/register.html" class="user_register">注册</a>
 					</div>
 					<div class="quick_menu">
-						 <ul>
-						 	<li class="user_order"><a href="#">我的订单</a><i></i>
-						 		<ul>
-						 			<li><a href="#">待付款订单</a></li>
-						 			<li><a href="#">待确认收货</a></li>
-						 			<li><a href="#">待评价交易</a></li>
-						 		</ul>
-						 	</li>
-						 	<li class="user_favorite"><a href="#">我的收藏</a><i></i>
-						 		<ul>
-						 			<li><a href="#">商品收藏</a></li>
-						 			<li><a href="#">店铺收藏</a></li>
-						 		</ul>
-						 	</li>
-						 	<li class="user_center"><a href="#">卖家中心</a><i></i>
-						 		<ul>
-						 			<li><a href="#">我的订单</a></li>
-						 			<li><a href="#">商家入驻</a></li>
-						 		</ul>
-						 	</li>
-						 	<li class="user_service"><a href="#">客户服务</a><i></i>
-						 		<ul>
-						 			<li><a href="#">帮助中心</a></li>
-						 			<li><a href="#">售后服务</a></li>
-						 			<li><a href="#">客服中心</a></li>
-						 		</ul>
-						 	</li>
-						 	<li class="mobi_shop"><a href="#">手机商城</a><i></i>
-						 		<ul style="width:100px;height:100px"><img src="img/05137898492983214.png" style="width: 100%;height: 100%"/></ul>
-						 	</li>
-						 	<li class="vip_center"><a href="#">会员中心</a><i></i>
-						 		<ul></ul>
-						 	</li>
-						 	<li class="cart"><a href="#">购物车</a><i></i>
-						 		<ul></ul>
-						 	</li>
-						 </ul>
+						<ul>
+							<li class="user_order">
+								<a href="#">我的订单</a><i></i>
+								<ul>
+									<li>
+										<a href="#">待付款订单</a>
+									</li>
+									<li>
+										<a href="#">待确认收货</a>
+									</li>
+									<li>
+										<a href="#">待评价交易</a>
+									</li>
+								</ul>
+							</li>
+							<li class="user_favorite">
+								<a href="#">我的收藏</a><i></i>
+								<ul>
+									<li>
+										<a href="#">商品收藏</a>
+									</li>
+									<li>
+										<a href="#">店铺收藏</a>
+									</li>
+								</ul>
+							</li>
+							<li class="user_center">
+								<a href="#">卖家中心</a><i></i>
+								<ul>
+									<li>
+										<a href="#">我的订单</a>
+									</li>
+									<li>
+										<a href="#">商家入驻</a>
+									</li>
+								</ul>
+							</li>
+							<li class="user_service">
+								<a href="#">客户服务</a><i></i>
+								<ul>
+									<li>
+										<a href="#">帮助中心</a>
+									</li>
+									<li>
+										<a href="#">售后服务</a>
+									</li>
+									<li>
+										<a href="#">客服中心</a>
+									</li>
+								</ul>
+							</li>
+							<li class="mobi_shop">
+								<a href="#">手机商城</a><i></i>
+								<ul style="width:100px;height:100px"><img src="img/05137898492983214.png" style="width: 100%;height: 100%" /></ul>
+							</li>
+							<li class="vip_center">
+								<a href="#">会员中心</a><i></i>
+								<ul></ul>
+							</li>
+							<li class="cart">
+								<a href="#">购物车</a><i></i>
+								<ul></ul>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</header>
-			
+
 			<div class="wrapper_nav">
 				<div class="nav">
 					<h1 class="logo">
 						<span>表加网</span>
 					</h1>
-					
+
 					<ul class="nav_menu">
-						<li><a href="#">首页</a></li>
-						<li><a href="#">抢购</a></li>
-						<li><a href="#">品牌</a></li>
-						<li><a href="#">书城</a></li>
-						<li><a href="#">积分兑换</a></li>
+						<li>
+							<a href="http://localhost/biajia/index.html">首页</a>
+						</li>
+						<li>
+							<a href="#">抢购</a>
+						</li>
+						<li>
+							<a href="#">品牌</a>
+						</li>
+						<li>
+							<a href="#">书城</a>
+						</li>
+						<li>
+							<a href="#">积分兑换</a>
+						</li>
 					</ul>
-					
+
 					<div class="search_wrapper">
 						<div class="search_inner">
 							<div class="cate">
 								<div id="cate_inner">
 									<p>宝贝</p>
 									<ul class="cate_ul">
-										<li><a href="#">宝贝</a></li>
-										<li><a href="#">店铺</a></li>
-										<li><a href="#">品牌</a></li>
+										<li>
+											<a href="#">宝贝</a>
+										</li>
+										<li>
+											<a href="#">店铺</a>
+										</li>
+										<li>
+											<a href="#">品牌</a>
+										</li>
 									</ul>
 								</div>
 								<a href="#" class="cate_slide"></a>
 							</div>
-							<input type="text" id="keyword" placeholder="请输入您要搜索的商品关键字"/>
-							<input type="submit" value="搜索" id="btn"/>
+							<input type="text" id="keyword" placeholder="请输入您要搜索的商品关键字" />
+							<input type="submit" value="搜索" id="btn" />
 						</div>
 
 					</div>
 
 				</div>
 			</div>
-			
-			<div class="wrapper_banner">
-				
-				<div class="banner_inner">
-					
-					<div class="swiper-container">
-					    <div class="swiper-wrapper">
-					        <div class="swiper-slide swiper-no-swiping"><img src="img/web-101-101-1.jpg"/></div>
-					        <div class="swiper-slide swiper-no-swiping"><img src="img/web-101-101-2.jpg"/></div>
-					        <div class="swiper-slide swiper-no-swiping"><img src="img/web-101-101-4.jpg"/></div>
-					    </div>
-					</div>
-					
-				</div>
-			</div>
 
-			<div class="wrapper_category">
-				<div class="category">
-					<div class="category_title">
-						<a href="#">全部商品分类</a><i class="iconfont icon-arrowdropdown1"></i>
+			<div class="wrapper_banner">
+
+				<div class="banner_inner">
+
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide swiper-no-swiping"><img src="img/web-101-101-1.jpg" /></div>
+							<div class="swiper-slide swiper-no-swiping"><img src="img/web-101-101-2.jpg" /></div>
+							<div class="swiper-slide swiper-no-swiping"><img src="img/web-101-101-4.jpg" /></div>
+						</div>
 					</div>
-					<ul>
-						<li><a href="#">男士手表</a><em class="iconfont icon-page-right"></em>
-							<div class="category_content" id="c1"></div>
-						</li>
-						<li class="dark"><a href="#">女士手表</a><em class="iconfont icon-page-right"></em>
-							<div class="category_content" id="c2"></div>
-						</li>
-						<li><a href="#">情侣手表</a><em class="iconfont icon-page-right"></em>
-							<div class="category_content" id="c3"></div>
-						</li>
-						<li class="dark"><a href="#">智能手表</a><em class="iconfont icon-page-right"></em>
-							<div class="category_content" id="c4"></div>
-						</li>
-						<li><a href="#">儿童手表</a><em class="iconfont icon-page-right"></em></li>
-						<li class="dark"><a href="#">座钟挂钟</a><em class="iconfont icon-page-right"></em></li>
-						<li><a href="#">钟表配件</a><em class="iconfont icon-page-right"></em></li>
-					</ul>
+
 				</div>
 			</div>
-						
-						
+			
+			<div class="category_layout">
+				<div class="category_wrapper">
+					<div class="category_title">
+						<div class="inner_title">
+							<a href="#">全部商品分类</a>
+							<i class="arrow"></i>
+						</div>
+					</div>
+					<div class="category_content">
+						<ul class="category_menu">
+							<li>
+								<div class="things">
+									<h4><a href="#">男士手表</a></h4>
+									<span class="up_clear"></span>
+									<span class="arrow_2"></span>
+								</div>
+								<div class="subcategory">
+									<div class="sub_left">
+										<dl class="cate_brick">
+											<dt><h3><a href="#">商务表</a></h3></dt>
+											<dd></dd>
+										</dl>
+										<dl class="cate_brick">
+											<dt><h3><a href="#">时尚表</a></h3></dt>
+											<dd></dd>
+										</dl>
+										<dl class="cate_brick">
+											<dt><h3><a href="#">复古表</a></h3></dt>
+											<dd></dd>
+										</dl>
+										<dl class="cate_brick">
+											<dt><h3><a href="#">智能手表</a></h3></dt>
+											<dd></dd>
+										</dl>
+										<dl class="cate_brick">
+											<dt><h3><a href="#">运动手表</a></h3></dt>
+											<dd></dd>
+										</dl>
+									</div>
+									<div class="sub_right">
+										<ul>
+											<li><a href="#"><img src="img/05197302737863183.jpg"/></a></li>
+											<li><a href="#"><img src="img/05198150944765361.jpg"/></a></li>
+											<li><a href="#"><img src="img/05198245731587177.jpg"/></a></li>
+											<li><a href="#"><img src="img/05194927991842208.jpg"/></a></li>
+											<li><a href="#"><img src="img/05194928807867575.jpg"/></a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li id="dark">
+								<div class="things" >
+									<h4><a href="#">女士手表</a></h4>
+									<span class="up_clear"></span>
+									<span class="arrow_2"></span>
+								</div>
+								<div class="subcategory" style="top:-60px">
+									<div class="sub_left">
+										<dl class="cate_brick">
+											<dt><h3><a href="#">商务手表</a></h3></dt>
+											<dd></dd>
+										</dl>
+										<dl class="cate_brick">
+											<dt><h3><a href="#">时尚手表</a></h3></dt>
+											<dd></dd>
+										</dl>
+										<dl class="cate_brick">
+											<dt><h3><a href="#">复古手表</a></h3></dt>
+											<dd></dd>
+										</dl>
+										<dl class="cate_brick">
+											<dt><h3><a href="#">运动手表</a></h3></dt>
+											<dd></dd>
+										</dl>
+										<dl class="cate_brick">
+											<dt><h3><a href="#">智能手表</a></h3></dt>
+											<dd></dd>
+										</dl>
+										<dl class="cate_brick">
+											<dt><h3><a href="#">珐琅手表</a></h3></dt>
+											<dd></dd>
+										</dl>
+									</div>
+									<div class="sub_right">
+										<ul>
+											<li><a href="#"><img src="img/05197303217168565.jpg"/></a></li>
+											<li><a href="#"><img src="img/05197366973505829.jpg"/></a></li>
+											<li><a href="#"><img src="img/05198155190253531.jpg"/></a></li>
+											<li><a href="#"><img src="img/05198157412614057.jpg"/></a></li>
+											<li><a href="#"><img src="img/05197366973505829.jpg"/></a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="things">
+									<h4><a href="#">情侣对表</a></h4>
+									<span class="up_clear"></span>
+									<span class="arrow_2"></span>
+								</div>
+								<div class="subcategory" style="top:-120px">
+									<div class="sub_left">
+										<dl class="cate_brick">
+											<dt><h3><a href="#">古尊</a></h3></dt>
+											<dd></dd>
+										</dl>
+										<dl class="cate_brick">
+											<dt><h3><a href="#">雷迈</a></h3></dt>
+											<dd></dd>
+										</dl>
+									</div>
+									<div class="sub_right">
+										<ul>
+											<li><a href="#"><img src="img/05197367646711524.jpg"/></a></li>
+											<li><a href="#"><img src="img/05198158777740575.jpg"/></a></li>
+											<li><a href="#"><img src="img/05198160267637241.jpg"/></a></li>
+											<li><a href="#"><img src="img/05198161090065352.jpg"/></a></li>
+											<li><a href="#"><img src="img/05198164349797954.jpg"/></a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li id="dark">
+								<div class="things" >
+									<h4><a href="#">智能手表</a></h4>
+									<span class="up_clear"></span>
+									<span class="arrow_2"></span>
+								</div>
+								<div class="subcategory" style="top:-180px">
+									<div class="sub_left">
+										<dl class="cate_brick">
+											<dt><h3><a href="#">登凯运</a></h3></dt>
+											<dd></dd>
+										</dl>
+										<dl class="cate_brick">
+											<dt><h3><a href="#">糖猫</a></h3></dt>
+											<dd></dd>
+										</dl>
+										<dl class="cate_brick">
+											<dt><h3><a href="#">乐视</a></h3></dt>
+											<dd></dd>
+										</dl>
+										<dl class="cate_brick">
+											<dt><h3><a href="#">华为</a></h3></dt>
+											<dd></dd>
+										</dl>
+										<dl class="cate_brick">
+											<dt><h3><a href="#">三星</a></h3></dt>
+											<dd></dd>
+										</dl>
+										<dl class="cate_brick">
+											<dt><h3><a href="#">宜准 EZON</a></h3></dt>
+											<dd></dd>
+										</dl>
+										<dl class="cate_brick">
+											<dt><h3><a href="#">UECOO</a></h3></dt>
+											<dd></dd>
+										</dl>
+										<dl class="cate_brick">
+											<dt><h3><a href="#">hardway</a></h3></dt>
+											<dd></dd>
+										</dl>
+										<dl class="cate_brick">
+											<dt><h3><a href="#">啦唔酷</a></h3></dt>
+											<dd></dd>
+										</dl>
+									</div>
+									<div class="sub_right">
+										<ul>
+											<li><a href="#"><img src="img/05198243255529228.jpg"/></a></li>
+											<li><a href="#"><img src="img/05198244222571600.jpg"/></a></li>
+											<li><a href="#"><img src="img/05198245471716894.jpg"/></a></li>
+											<li><a href="#"><img src="img/05198157412614057.jpg"/></a></li>
+											<li><a href="#"><img src="img/05198326504885626.jpg"/></a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="things">
+									<h4><a href="#">儿童手表</a></h4>
+									<span class="up_clear"></span>
+									<span class="arrow_2"></span>
+								</div>
+								<div class="subcategory" style="top:-240px">
+									<div class="sub_left">
+										<dl class="cate_brick">
+											<dt><h3><a href="#">花样年华</a></h3></dt>
+											<dd></dd>
+										</dl>
+										<dl class="cate_brick">
+											<dt><h3><a href="#">大嘴猴</a></h3></dt>
+											<dd></dd>
+										</dl>
+										<dl class="cate_brick">
+											<dt><h3><a href="#">O.T.S</a></h3></dt>
+											<dd></dd>
+										</dl>
+										<dl class="cate_brick">
+											<dt><h3><a href="#">乐视</a></h3></dt>
+											<dd></dd>
+										</dl>
+										<dl class="cate_brick">
+											<dt><h3><a href="#">糖猫</a></h3></dt>
+											<dd></dd>
+										</dl>
+										<dl class="cate_brick">
+											<dt><h3><a href="#">缤果 Benko</a></h3></dt>
+											<dd></dd>
+										</dl>
+										<dl class="cate_brick">
+											<dt><h3><a href="#">喜羊羊儿</a></h3></dt>
+											<dd></dd>
+										</dl>
+										<dl class="cate_brick">
+											<dt><h3><a href="#">迪士尼</a></h3></dt>
+											<dd></dd>
+										</dl>
+										<dl class="cate_brick">
+											<dt><h3><a href="#">淘气宝贝</a></h3></dt>
+											<dd></dd>
+										</dl>
+										<dl class="cate_brick">
+											<dt><h3><a href="#">浪温少女</a></h3></dt>
+											<dd></dd>
+										</dl>
+									</div>
+									<div class="sub_right">
+										<ul>
+											<li><a href="#"><img src="img/05198336798003749.jpg"/></a></li>
+											<li><a href="#"><img src="img/05198337448734121.jpg"/></a></li>
+											<li><a href="#"><img src="img/05198338191365655.jpg"/></a></li>
+											<li><a href="#"><img src="img/05198339265070588.jpg"/></a></li>
+											<li><a href="#"><img src="img/05198329513863980.jpg"/></a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li id="dark">
+								<div class="things" >
+									<h4><a href="#">座钟挂钟</a></h4>
+									<span class="up_clear"></span>
+									<span class="arrow_2"></span>
+								</div>
+								<div class="subcategory" style="top:-300px">
+									<div class="sub_left">
+										<dl class="cate_brick">
+											<dt><h3><a href="#">肯宁家</a></h3></dt>
+											<dd></dd>
+										</dl>
+										<dl class="cate_brick">
+											<dt><h3><a href="#">美时嘉</a></h3></dt>
+											<dd></dd>
+										</dl>
+										<dl class="cate_brick">
+											<dt><h3><a href="#">北极星</a></h3></dt>
+											<dd></dd>
+										</dl>
+										<dl class="cate_brick">
+											<dt><h3><a href="#">赫姆勒</a></h3></dt>
+											<dd></dd>
+										</dl>
+										<dl class="cate_brick">
+											<dt><h3><a href="#">丽声</a></h3></dt>
+											<dd></dd>
+										</dl>
+									</div>
+									<div class="sub_right">
+										<ul>
+											<li><a href="#"><img src="img/05197366973505829.jpg"/></a></li>
+											<li><a href="#"><img src="img/05198332683605644.jpg"/></a></li>
+											<li><a href="#"><img src="img/05198242514364326.jpg"/></a></li>
+											<li><a href="#"><img src="img/05198333739494731.jpg"/></a></li>
+											<li><a href="#"><img src="img/05198335762953071.jpg"/></a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="things">
+									<h4><a href="#">钟表配件</a></h4>
+									<span class="up_clear"></span>
+									<span class="arrow_2"></span>
+								</div>
+								<div class="subcategory" style="top:-360px">
+									<div class="sub_left">
+										<dl class="cate_brick">
+											<dt><h3><a href="#">表带</a></h3></dt>
+											<dd></dd>
+										</dl>
+									</div>
+									<div class="sub_right">
+										<ul>
+											<li><a href="#"><img src="img/05198245731587177.jpg"/></a></li>
+											<li><a href="#"><img src="img/05194927991842208.jpg"/></a></li>
+											<li><a href="#"><img src="img/05198330954586366.jpg"/></a></li>
+											<li><a href="#"><img src="img/05198330203534963.jpg"/></a></li>
+											<li><a href="#"><img src="img/05198333401741626.jpg"/></a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					
+				</div>
+				
+				
+			</div>
+			
+			
+
 			<div class="wrapper_sale">
 				<div class="sale_inner">
 					<ul class="sale_nav">
-						<li class="selected"><h3>人气推荐</h3><i class="iconfont icon-arrow-up"></i></li>
-						<li><h3>猜您喜欢</h3><i class="iconfont icon-arrow-up"></i></li>
-						<li><h3>热卖商品</h3><i class="iconfont icon-arrow-up"></i></li>
-						<li><h3>热评商品</h3><i class="iconfont icon-arrow-up"></i></li>
-						<li><h3>最新上市</h3><i class="iconfont icon-arrow-up"></i></li>
+						<li class="selected" id="recomm">
+							<h3>人气推荐</h3><i class="iconfont icon-arrow-up"></i></li>
+						<li id="like">
+							<h3>猜您喜欢</h3><i class="iconfont icon-arrow-up"></i></li>
+						<li id="hotsale">
+							<h3>热卖商品</h3><i class="iconfont icon-arrow-up"></i></li>
+						<li id="hotsale">
+							<h3>热评商品</h3><i class="iconfont icon-arrow-up"></i></li>
+						<li id="recomm">
+							<h3>最新上市</h3><i class="iconfont icon-arrow-up"></i></li>
 					</ul>
 					<div class="sale_panel">
 						<ul>
-							<li><dl>
-								<dt class="goods_img"><a href="#"><img src="img/22_05463453024382522_240.jpg"/></a></dt>
-								<dd class="goods_name"><a href="#">雷迈表情侣对表男士腕表手表全自动机械表镂空水砖表正品8002M</a></dd>
-								<dd class="goods_price">商城价:<em>￥1040.00</em></dd>
-							</dl></li>
-							<li><dl>
-								<dt class="goods_img"><a href="#"><img src="img/22_05463453298608745_240.jpg"/></a></dt>
-								<dd class="goods_name"></dd>
-								<dd class="goods_price"></dd>
-							</dl></li>
-							<li><dl>
-								<dt class="goods_img"><a href="#"><img src="img/22_05463453496582460_240.jpg"/></a></dt>
-								<dd class="goods_name"></dd>
-								<dd class="goods_price"></dd>
-							</dl></li>
-							<li><dl>
-								<dt class="goods_img"><a href="#"><img src="img/22_05463453671117991_240.jpg"/></a></dt>
-								<dd class="goods_name"></dd>
-								<dd class="goods_price"></dd>
-							</dl></li>
+							<!-- <li>
+								<dl>
+									<dt class="goods_img"><a href="#"><img src="img/22_05463453024382522_240.jpg"/></a></dt>
+									<dd class="goods_name">
+										<a href="#">雷迈表情侣对表男士腕表手表全自动机械表镂空水砖表正品8002M</a>
+									</dd>
+									<dd class="goods_price">商城价:<em>￥1040.00</em></dd>
+								</dl>
+							</li> -->
 						</ul>
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="wrapper_ad">
 				<div class="ad_banner">
 					本店火爆销售<span><a href="#">更多>></a></span>
 				</div>
 				<div class="ad_inner">
 					<div class="ad_item">
-						<a href="#"><img src="img/20160616142602_87983.jpg"/></a>
+						<a href="#"><img src="img/20160616142602_87983.jpg" /></a>
 					</div>
 					<div class="ad_item">
-						<a href="#"><img src="img/20160616170601_70570.jpg"/></a>
+						<a href="#"><img src="img/20160616170601_70570.jpg" /></a>
 					</div>
 					<div class="ad_item">
-						<a href="#"><img src="img/20160930161004_18077.jpg"/></a>
+						<a href="#"><img src="img/20160930161004_18077.jpg" /></a>
 					</div>
 					<div class="ad_item" id="clear">
-						<a href="#"><img src="img/20161012142359_92147.jpg"/></a>
+						<a href="#"><img src="img/20161012142359_92147.jpg" /></a>
 					</div>
 				</div>
-				
-				
-				
+
 			</div>
-			
-			
-			
-			<div class="floor_1f">
+
+			<!--<div class="floor_1f">
 				<div class="floor_title">
 					<h1><b>1F</b>男士手表</h1>
 				</div>
@@ -212,70 +566,173 @@
 					<div class="box_right">
 						<ul>
 							<li><a href="#">
-									<div class="item_pic"><img src=""/></div>
+									<div class="item_pic"><img src="img/40_05194931936046741_240.jpg"/></div>
 									<div class="item_intro">
-										<div class="item_name"></div>
-										<div class="item_price"></div>
+										<div class="item_name">米格正品手表自动机械表精钢商务休闲腕表防水50m透底 本色白面男 88004G</div>
+										<div class="item_price">¥498.00</div>
 									</div>
-								</a></li>
-							<li><a href="#">
-									<div class="item_pic"><img src=""/></div>
-									<div class="item_intro">
-										<div class="item_name"></div>
-										<div class="item_price"></div>
-									</div>
-								</a></li>
-							<li><a href="#">
-									<div class="item_pic"><img src=""/></div>
-									<div class="item_intro">
-										<div class="item_name"></div>
-										<div class="item_price"></div>
-									</div>
-								</a></li>
-							<li><a href="#">
-									<div class="item_pic"><img src=""/></div>
-									<div class="item_intro">
-										<div class="item_name"></div>
-										<div class="item_price"></div>
-									</div>
-								</a></li>
-							<li><a href="#">
-									<div class="item_pic"><img src=""/></div>
-									<div class="item_intro">
-										<div class="item_name"></div>
-										<div class="item_price"></div>
-									</div>
-								</a></li>
-							<li><a href="#">
-									<div class="item_pic"><img src=""/></div>
-									<div class="item_intro">
-										<div class="item_name"></div>
-										<div class="item_price"></div>
-									</div>
-								</a></li>
+							</a></li>
 						</ul>
 					</div>
 				</div>
 				
+			</div>-->
+
+			<footer>
+				<div class="faq">
+					<ul>
+						<li>
+							<div class="faq_icon">
+								<a href="#"><img src="img/05042043953445942.png" /></a>
+							</div>
+							<dl>
+								<dt>正品保障</dt>
+								<dd>正品保障，提供发票</dd>
+							</dl>
+						</li>
+						<li>
+							<div class="faq_icon">
+								<a href="#"><img src="img/05042043253320320.png" /></a>
+							</div>
+							<dl>
+								<dt>急速物流</dt>
+								<dd>急速物流，急速送达</dd>
+							</dl>
+						</li>
+						<li>
+							<div class="faq_icon">
+								<a href="#"><img src="img/05042042749546439.png" /></a>
+							</div>
+							<dl>
+								<dt>无忧售后</dt>
+								<dd>7天无理由退换</dd>
+							</dl>
+						</li>
+						<li>
+							<div class="faq_icon">
+								<a href="#"><img src="img/05042042354674281.png" /></a>
+							</div>
+							<dl>
+								<dt>帮助中心</dt>
+								<dd>您的购物指南</dd>
+							</dl>
+						</li>
+					</ul>
+				</div>
+				<div class="foot_bottom">
+					<div class="details">
+						<ul>
+							<li>
+								<dl class="s1">
+									<dt>帮助中心      </dt>
+									<dd><i></i>
+										<a href="#" title="常见问解答"> 常见问解答 </a>
+									</dd>
+									<dd><i></i>
+										<a href="#" title="发票说明"> 发票说明 </a>
+									</dd>
+								</dl>
+							</li>
+							<li>
+								<dl class="s2">
+									<dt>店主之家      </dt>
+									<dd><i></i>
+										<a href="#" title="商品发布标准与设计规范"> 商品发布标准与设计规范 </a>
+									</dd>
+									<dd><i></i>
+										<a href="#" title="如何申请开店"> 如何申请开店 </a>
+									</dd>
+									<dd><i></i>
+										<a href="#" title="店铺基本设置注意事项？"> 店铺基本设置注意事项？ </a>
+									</dd>
+								</dl>
+							</li>
+							<li>
+								<dl class="s3">
+									<dt>支付方式      </dt>
+									<dd><i></i>
+										<a href="#" title="常见支付问题"> 常见支付问题 </a>
+									</dd>
+									<dd><i></i>
+										<a href="#" title="如何注册支付宝"> 如何注册支付宝 </a>
+									</dd>
+								</dl>
+							</li>
+							<li>
+								<dl class="s4">
+									<dt>售后服务      </dt>
+									<dd><i></i>
+										<a href="#" title="售后服务说明"> 售后服务说明 </a>
+									</dd>
+									<dd><i></i>
+										<a href="#" title="如何退换货"> 如何退换货 </a>
+									</dd>
+									<dd><i></i>
+										<a href="#" title="钟表保修说明"> 钟表保修说明 </a>
+									</dd>
+									<dd><i></i>
+										<a href="#" title="七天退换货说明"> 七天退换货说明 </a>
+									</dd>
+								</dl>
+							</li>
+							<li>
+								<dl class="s5">
+									<dt>客服中心      </dt>
+									<dd><i></i>
+										<a href="#" title="表+网客服中心"> 表+网客服中心 </a>
+									</dd>
+								</dl>
+							</li>
+							<li>
+								<dl class="s6">
+									<dt>关于我们      </dt>
+									<dd><i></i>
+										<a href="#" title="合作及洽谈"> 合作及洽谈 </a>
+									</dd>
+									<dd><i></i>
+										<a href="#" title="联系我们"> 联系我们 </a>
+									</dd>
+									<dd><i></i>
+										<a href="#" title="关于表加网"> 关于表加网 </a>
+									</dd>
+								</dl>
+							</li>
+						</ul>
+						<div class="foot-contact">
+							<h1>0755-83251984</h1>
+							<p>周一至周日：8:30-18:00<br />（全国免费）</p>
+							<h2><i class="foot-kf"></i>平台24小时在线客服</h2>
+						</div>
+					</div>
+				</div>	
+			</footer>
+			<div id="footer">
+					<p>
+						<a href="#">首页</a>
+						|
+						<a href="#">招聘英才</a>
+						|
+						<a href="#">联系我们</a>
+						|
+						<a href="#">合作及洽谈</a>
+						|
+						<a target="_blank" href="#">关于表加网</a>
+					</p>
+					Copyright 2014-2017 深圳市意外空间网络有限公司,All rights reserved.
+					<a href="#" target="_blank">
+						<a href='#' target='_blank'>粤ICP备16044028号-1</a>
+					</a>
 			</div>
-			
-			
-			
-			
-			
 		</div>
-		
-		
-		
-		
-		
-		
-		
+
 		<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/header.js"></script>
+		<script src="js/toolbar.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/banner.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/category.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/sale.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/floor.js" type="text/javascript" charset="utf-8"></script>
 	</body>
+
 </html>
